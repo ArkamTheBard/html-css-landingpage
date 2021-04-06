@@ -1,0 +1,130 @@
+body{
+    background-color: #030C3C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+header.page-header{
+     background: no-repeat center/cover url(https://images.pexels.com/photos/4126712/pexels-photo-4126712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+     height: 30vh;
+     width: 100vw;
+     display: flex;
+     align-items: center;
+}
+
+header.page-header > h1{
+    font: bold calc(3em + 2 * (100vw - 120px) / 100) 'Inconsolata', monospace;
+    color: #343a40;
+    margin: auto;
+}
+
+.about-us{
+    text-align: center;
+}
+
+.about-us-head{
+    background: no-repeat center/cover url(https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    border-radius: 15%;
+    height: 20vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.about-us-desc{
+    margin: auto;
+    width: 30%;
+}
+
+.featured > div > a:link {
+    text-decoration: none;
+}
+
+.featured > div > a > div {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.featured > div > a > div:hover {
+    opacity: 1;
+}
+
+.gaming{
+    background: no-repeat center/cover url(https://images.pexels.com/photos/3977908/pexels-photo-3977908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    border-radius: 15%;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.general{
+    background: no-repeat center/cover url(https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    border-radius: 15%;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.creative{
+    background: no-repeat center/cover url(https://images.pexels.com/photos/159299/graphic-design-studio-tracfone-programming-html-159299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    border-radius: 15%;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.streaming{
+    background: no-repeat center/cover url(https://images.pexels.com/photos/340152/pexels-photo-340152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    border-radius: 15%;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pricing{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pricing > div {
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container video{
+    height: 30vh;
+    width: 30%;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 10%;
+}
+
+.video-container .caption{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
